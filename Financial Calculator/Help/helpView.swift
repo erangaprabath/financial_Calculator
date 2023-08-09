@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct helpView: View {
+    @State var savingAmount:String = ""
+    @State var savingIntersetRate:String = ""
     var body: some View {
         ZStack{
             Color.red
             VStack{
                 Text("Need helps")
+                Text("For saving help click here")
+          
             }
         }.ignoresSafeArea()
     }
