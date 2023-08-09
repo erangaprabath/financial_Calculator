@@ -15,6 +15,7 @@ struct helpView: View {
             Color.red
             VStack{
                 Text("Need helps")
+                    .foregroundColor(Color.white)
                 Button(action:{
                    
                 }){
