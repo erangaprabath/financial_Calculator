@@ -15,7 +15,13 @@ struct helpView: View {
             Color.red
             VStack{
                 Text("Need helps")
-                Text("For saving help click here")
+                Button(action:{
+                   
+                }){
+                    Text("For saving help click here")
+                }
+               
+                
           
             }
         }.ignoresSafeArea()
