@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523BDD542A833F790029ABEF /* helpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523BDD532A833F790029ABEF /* helpView.swift */; };
 		52593E592A67CCF20058E074 /* SavingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52593E582A67CCF10058E074 /* SavingViewController.swift */; };
 		52593E5C2A698E920058E074 /* mortgageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52593E5B2A698E920058E074 /* mortgageView.swift */; };
 		52C349302A66DBE400719CDB /* Financial_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3492F2A66DBE400719CDB /* Financial_CalculatorApp.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523BDD532A833F790029ABEF /* helpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helpView.swift; sourceTree = "<group>"; };
 		52593E582A67CCF10058E074 /* SavingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingViewController.swift; sourceTree = "<group>"; };
 		52593E5B2A698E920058E074 /* mortgageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mortgageView.swift; sourceTree = "<group>"; };
 		52C3492C2A66DBE400719CDB /* Financial Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Financial Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523BDD522A833F610029ABEF /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				523BDD532A833F790029ABEF /* helpView.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
 		52593E5A2A698E670058E074 /* Mortgage */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		52C3492E2A66DBE400719CDB /* Financial Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				523BDD522A833F610029ABEF /* Help */,
 				52593E5A2A698E670058E074 /* Mortgage */,
 				52C3494C2A6785C000719CDB /* Savings */,
 				52C349492A6701C200719CDB /* TopView */,
@@ -198,6 +209,7 @@
 				52593E592A67CCF20058E074 /* SavingViewController.swift in Sources */,
 				52C3493F2A66DC1600719CDB /* splashScreen.swift in Sources */,
 				52C3494B2A6701D700719CDB /* topView.swift in Sources */,
+				523BDD542A833F790029ABEF /* helpView.swift in Sources */,
 				52C3494E2A6785D900719CDB /* SavingViews.swift in Sources */,
 				52C349302A66DBE400719CDB /* Financial_CalculatorApp.swift in Sources */,
 				52C349422A66E3B900719CDB /* homeViewIcons.swift in Sources */,

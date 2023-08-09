@@ -71,21 +71,23 @@ struct homeViewIcons: View {
                                 }
                             }
                         }
-                        ZStack(alignment:.center){
-                            RoundedRectangle(cornerRadius: 10)
-                                .scaledToFill()
-                                .foregroundColor(Color.black.opacity(0.3))
-                                .frame(width: 150,height: 100)
-                            VStack{
-                                Image("868681")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 100,height: 100)
-                                    .onTapGesture {
-                                        
-                                    }
-                                Text("Help")
-                                    .foregroundColor(Color.white)
+                        NavigationLink(destination:helpView()){
+                            ZStack(alignment:.center){
+                                RoundedRectangle(cornerRadius: 10)
+                                    .scaledToFill()
+                                    .foregroundColor(Color.black.opacity(0.3))
+                                    .frame(width: 150,height: 100)
+                                VStack{
+                                    Image("868681")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(width: 100,height: 100)
+                                        .onTapGesture {
+                                            
+                                        }
+                                    Text("Help")
+                                        .foregroundColor(Color.white)
+                                }
                             }
                         }
                     }
