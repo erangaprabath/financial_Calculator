@@ -9,10 +9,12 @@ import SwiftUI
 
 struct helpView: View {
     var body: some View {
-        VStack{
-            Text("Need helps")
-        }
-        
+        ZStack{
+            Color.red
+            VStack{
+                Text("Need helps")
+            }
+        }.ignoresSafeArea()
     }
 }
 
