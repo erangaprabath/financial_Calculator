@@ -9,7 +9,10 @@ import SwiftUI
 
 struct helpView: View {
     var body: some View {
-        Text("Helphdashdh")
+        VStack{
+            Text("Need helps")
+        }
+        
     }
 }
 
